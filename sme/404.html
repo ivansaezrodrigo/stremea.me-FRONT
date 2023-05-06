@@ -44,7 +44,7 @@
     </script>
 </head>
 
-<body class="flex flex-col">
+<body class="flex flex-col ">
     <nav class="bg-secondary-200 shadow-lg row-span-2 z-50">
         <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
             <div class="relative flex h-16 items-center justify-between">
@@ -129,63 +129,30 @@
                     class="text-black hover:text-gray-600 block rounded-md px-3 py-2 text-base font-medium">Cerrar
                     sesión</a>
                 <a href="#"
-                    class="block px-3 py-2 rounded-md text-base font-medium bg-primary-200 text-white bg-primary-100 hover:bg-primary-200 active:border-none active:mt-2 border-b-4 border-primary-300"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-white bg-primary-200  bg-primary-100 hover:bg-primary-200 active:border-none active:mt-2 border-b-4 border-primary-300"
                     aria-current="page">Registrarse</a>
             </div>
         </div>
     </nav>
-    <main class="row-span-4 bg-gradient-to-t from-white to-gray-300">
-        <div class="-mt-3 bg-gradient-to-t from-secondary-200 to-secondary-100 shadow-sm  bg-cover min-h-fit max-h-max">
-            <div class="relative z-10 h-fit w-full flex justify-center flex-col lg:flex-row lg:p-20 p-7">
-                <div class=" w-full flex flex-col justify-center lg:max-w-xl sm:max-w-md">
-                    <h2 class="text-4xl font-bold mb-3">Lleva tus streamings privados a un nuevo nivel.</h2>
-                    <span class="text-xl">Crea salas dinámicas a tu antojo y comparte experiencias únicas con tus amigos con tan sólo un link.</span>
-                    <button class="hidden text-2xl mt-4 text-white font-medium bg-primary-100 hover:bg-primary-200 active:border-none active:mt-1
-                    py-2 w-96 rounded-3xl transition duration-300  
-                    border-b-4 border-primary-300 md:inline">
-                        Generar sala
-                    </button>
-                </div>
-                <div class="max-w-2xl">
-                    <img src="img/ilustración.png" alt="Ilustración robot con ordenadores"> 
-                    <form action="#" class="mb-2 bg-white rounded-lg">
-                        <div class="relative flex items-center overflow-hidden border border-gray-200 rounded-lg">
-                            <input
-                                class="w-full px-3 py-2 text-base leading-normal transition duration-150 ease-in-out bg-white appearance-none focus:outline-none"
-                                type="email" placeholder="0000-0000-0000-0000">
-                            <button
-                                class="px-3 py-3 text-sm font-medium text-center text-white outline-slate-950  hover:bg-gray-400 bg-gray-950 border-2 border-gray-950 hover:border-gray-400"
-                                type="submit">Entrar</button>
-                        </div>
-                    </form>
+
+    <main class="row-span-4 bg-gradient-to-t from-secondary-100 to-secondary-200 min-h-screen flex flex-col">
+        <div class="min-h-screen flex flex-col justify-self-center content-center justify-between pt-14 ">
+            <div class="flex justify-center self-center lg:flex-row sm:flex-col flex-col pt-28 md:pt-36 lg:pt-44 w-full">
+                <div class="flex justify-center self-center flex-col py-7
+                    font-medium bg-primary-100 w-2/3 lg:w-1/4 max-w-xl rounded-3xl border-b-4 border-primary-300 p-10">
+                    <img class="w-32 h-auto self-center" src="img/404.png" alt="Mascota de stremea.me">
+                    <h1 class="font-bold text-2xl text-center mt-5"><i>¿Ya lo has roto?</i></h1>
+                    <span class="text-center w-full">Déjame que te ayudo a volver</span>
+                    <button class=" text-lg text-black font-bold bg-white hover:bg-gray-200 active:border-none active:mt-7
+                    py-2 rounded-lg transition duration-300  
+                    border-b-4 border-primary-300 self-center w-full mt-6" href="">Volver</button>
                 </div>
             </div>
-        </div>
-        <div class="flex flex-col content-center justify-evenly p-7 lg:p-24">
-            <div class="flex justify-center self-center lg:flex-row sm:flex-col flex-col">
-                <img class="self-center sm:mb-9 h-auto max-w-sm" src="img/teacher.svg" alt="Graficas de alta calidad y bitrate"/>
-                <div class="flex flex-col justify-center md:ml-24">
-                    <h3 class="text-4xl font-bold mb-3 text-right lg:max-w-xl sm:max-w-md">Streaming de alta calidad y bitrate</h3>
-                    <span class="text-xl text-right lg:max-w-xl sm:max-w-md">Streaming P2P privado y sin intermediarios.</span>
-                </div>
-            </div>
-            <div class="flex justify-center self-center lg:flex-row flex-col-reverse mt-14 ">
-                <div class="flex flex-col justify-center lg:mr-24">
-                    <h3 class="text-4xl font-bold mb-3 text-left lg:max-w-xl sm:max-w-md"><span class="font-normal">Stremea.me</span> te ofrece la oportunidad de crear tus propias salas de streaming privadas sin preocuparte de software de terceros.</h3>
-                    <span class="text-xl text-left lg:max-w-xl sm:max-w-md">¡No hace falta nada más que tu navegador!</span>
-                </div>
-                <img class="self-center sm:mb-9 h-auto max-w-sm" src="img/group.svg" alt="Graficas de alta calidad y bitrate"/>
-            </div>
-            <div class="flex justify-center flex-col self-center lg:flex-row mt-28">
-                <img class="self-center sm:mb-9 h-auto max-w-sm" src="img/virtualmeeting.svg" alt="Graficas de alta calidad y bitrate"/>
-                <div class="flex flex-col justify-center md:ml-24">
-                    <h3 class="text-4xl font-bold mb-3 text-right lg:max-w-xl sm:max-w-md">Con <span class="font-normal">Stremea.me</span>, puedes compartir cualquier contenido a tus amigos de manera fácil y segura. Esto os permitirá disfrutar de experiencias únicas juntos.</h3>
-                    <span class="text-xl text-right lg:max-w-xl sm:max-w-md mb-14">¡Sigamos el capitulo desde donde lo dejamos!</span>
-                </div>
-            </div>
+            <img src="img/wave-gris.svg" alt="Ola gris">
         </div>
        
     </main>
+
     <footer class="bg-gradient-to-t from-black-200 to-black-100 row-span-3">
         <div class="px-8 py-12 mx-auto max-w-7xl">
             <div class="grid justify-center grid-cols-2 gap-10 mb-3 md:grid-cols-3 lg:grid-cols-9 lg:gap-2">
